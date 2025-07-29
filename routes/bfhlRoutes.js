@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { handleBFHL } = require("../controllers/bfhlController");
+const { handleBFHL } = require("../controllers/controller");
 
 router.post("/", handleBFHL); 
 
